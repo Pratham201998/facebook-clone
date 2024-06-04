@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+</head>
+<style>
+    body{
+        background-color: aliceblue;
+    }
+    .main_div{
+        background-color :bisque;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 500px;
+        border-radius: 10px;
+        margin-left: 31%;
+        box-shadow: 1px 1px gray 15px;
+        
+    }
+    .heading{
+        margin-left: 90px;
+    }
+     p{
+        margin-left: 85px;
+     }
+      .info{
+        width: 100%;
+
+      }
+    input{
+        width: 80%;
+        
+        margin: 15px 40px;
+        height: 30px;
+        border-radius: 6px;
+        border-color: aquamarine;
+
+      }
+      label{
+        margin: 10px 40px;
+      }
+      .radio_button{
+        display: flex;
+        
+      }
+      button{
+        margin: 15px 145px;
+        width: 40%;
+        height: 40px;
+        border-radius: 10px;
+        background-color: rgb(214, 27, 27);
+        border-color: aquamarine;
+        color: white;
+        font-size: larger;
+      }
+
+</style>
+<body>
+    <div class="main_div">
+        <div class="heading">
+          <h1>Create a new account</h1>
+          <p>it's quick and easy. </p>
+        </div>
+        <div class="info">
+            <div class="name">
+                <div class="fname">
+                   <input  type="text" placeholder="First name">
+                </div>
+                <div class="lname">
+                    <input  type="text" placeholder=" surname">
+                 </div>
+
+            </div>
+            <div class="email">
+               <input type="text" placeholder="mobile number or emmail address">
+
+            </div>
+            <div class="password">
+              <input type="password" placeholder="password" required>
+            </div>
+            <div class="DOB">
+                <label>Date of birth:</label><br>
+                <input type="date">
+                <!-- <div class="date">
+                 <select>
+                    <option>1</option>  <option>2</option>  <option>3</option>  <option>4</option>  <option>5</option> <option>6</option>
+                 </select>
+                </div> -->
+
+
+            </div>
+            <div class="gender">
+                <label>Gender:</label>
+                <div class="radio_button">
+                    <label>female</label>
+                    <input type="radio" name="gender" value="female">
+                    <label>male</label>
+                    <input type="radio" name="gender" value="male">
+
+                </div>
+                <div class="signup">
+                    <form action="./main.html">
+                        <a>
+                            <button>Sign Up </button>
+                        </a>
+                    </form>
+                   
+                  
+                </div>
+            </div>
+            
+        </div>
+    </div>
+   
+    
+</body>
+</html>
