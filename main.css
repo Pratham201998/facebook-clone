@@ -1,0 +1,23 @@
+ .container{
+    display: flex;
+ }
+ .navbar{
+    display: flex;
+    justify-content: space-around;
+ }
+.sidebar{
+    height: 3000px;
+    width: 25%;
+    
+
+}
+.feed{
+    height: 3000px;
+    width: 50%;
+     
+    
+}
+.comment{
+    display: flex;
+    justify-content: space-around;
+}
